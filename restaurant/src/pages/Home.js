@@ -5,7 +5,7 @@ export default function Home() {
   return (
     
     <>
-    {/* <Slider></Slider> */}
+    <Slider></Slider>
      {/* <!--Features Section--> */}
 <section className="feature_wrap padding-half" id="specialities">
   <div className="container">
