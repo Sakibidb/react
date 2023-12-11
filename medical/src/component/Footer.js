@@ -3,8 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <>
-     <div>
-  <footer id="footer">
+      <footer id="footer">
     <div className="footer-top">
       <div className="container">
         <div className="row">
@@ -69,10 +68,11 @@ export default function Footer() {
         <a href="#" className="linkedin"><i className="bx bxl-linkedin" /></a>
       </div>
     </div>
-  </footer>{/* End Footer */}
-  {/* <div id="preloader" /> */}
-  <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short" /></a>
-</div>
+    
+  </footer>{/* End Footer */}<br />
+
+  
+
    
     </>
   )

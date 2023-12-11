@@ -3,6 +3,7 @@ import './App.css';
 import Layout from './component/Layout';
 import Home from './pages/Home';
 import AllProducts from './pages/AllProducts';
+import Registerdoctor from './pages/Registerdoctor';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Route path='/' element={<Layout/>}>
         <Route index element={<Home></Home>}></Route>
         <Route path='/allproducts' element={<AllProducts/>}></Route>
+        <Route path='/registerdoc' element={<Registerdoctor/>}></Route>
         
 
       </Route>
