@@ -28,7 +28,7 @@ $sql = "INSERT INTO appointment VALUES(NULL, '$p_name', '$email', '$phone', '$se
 $db->query($sql);
 
 if($db->affected_rows>0){
-    echo json_encode(["success"=>true, "msg"=>"Successfully Inserted"]);
+    echo json_encode(["success"=>true, "msg"=>"Appointment Successfull"]);
     //echo json_encode(["msg"=>"Successfully Inserted"]);
 		return;
     }else {
